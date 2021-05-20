@@ -11666,6 +11666,10 @@ textarea.form-control {
     visibility: hidden;
 }
 
+.ftco-animatee :hover {
+    zoom: 1.05;
+}
+
 .bg-primary {
     background: #DD1518 !important;
 }
@@ -13343,4 +13347,12 @@ textarea.form-control {
     left: 100%;
     top: auto;
     bottom: -20px;
+}
+
+h3 {
+    color: #DD1518;
+}
+
+h4 {
+    text-decoration: underline;
 }
