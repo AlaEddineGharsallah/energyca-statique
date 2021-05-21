@@ -11666,8 +11666,15 @@ textarea.form-control {
     visibility: hidden;
 }
 
-.ftco-animatee :hover {
-    zoom: 1.05;
+.ftco-animatee {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.ftco-animatee:hover {
+    margin-bottom: -10px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
 
 .bg-primary {
